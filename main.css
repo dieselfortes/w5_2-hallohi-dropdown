@@ -57,13 +57,35 @@ nav {
     padding: 50px;
 }
 
+ul{
+    padding:0;
+}
+
+ul{
+    list-style: none;
+}
+
 .horizontal-list {
     display: flex;
-    padding: 0;
-    list-style-type: none;
     margin: 0;
-    justify-content: space-between;
+    flex-direction: row;
+    gap:200px;
+    margin-left: 200;
+    a{
+        text-decoration: none;
+    }
+    .drop-down-content{
+        display:none;
+        padding-left:0;
+    }
+
+   
+
 }
+
+ .drop-down:hover .drop-down-content{
+        display: block !important; 
+    }   
 
 .horizontal-list2 {
     display: flex;

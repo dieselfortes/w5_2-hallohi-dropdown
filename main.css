@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family:ftltlt ;
+    src: url(ftltlt-webfont.woff);
+}
+.button {
+    padding: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.padding{
+    padding: 20px;
+   text-decoration: none;
+}
+
+.container{
+    justify-content:space-evenly;
+    height: 250px;
+}
+
+.text{
+font-size: 32px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.purple {
+    background-color: #9000ff;
+    color: white;
+    border-color: #9000ff;
+
+}
+
+.blue {
+    background-color: #7272dd;
+    color: white;
+}
+
+body {
+    font-family: ftltlt;
+    margin: 0;
+}
+
+nav {
+    background-color: #7272dd;
+    color: white;
+    padding: 50px;
+}
+
+.horizontal-list {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.horizontal-list2 {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 400px;
+    padding: 50px;
+}
+
+.section2 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 80px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+section {
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+header {
+    width: 1920px;
+    height: 420px;
+    padding: 75px;
+}
+
+
+footer {
+    background-color: #9000ff;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}

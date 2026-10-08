@@ -55,47 +55,53 @@ nav {
     background-color: #7272dd;
     color: white;
     padding: 50px;
-}
 
-ul{
-    padding:0;
-}
 
-ul{
-    list-style: none;
-}
+    ul{
+        padding:0;
 
-.horizontal-list {
-    display: flex;
-    margin: 0;
-    flex-direction: row;
-    gap:200px;
-    margin-left: 200;
-}
+        list-style: none;
+    }
+
+    .horizontal-list {
+        display: flex;
+        margin: 0;
+        flex-direction: row;
+        gap:200px;
+        margin-left: 200;
+
+            
+    }
+
+    .horizontal-list2 {
+        display: flex;
+        padding: 0;
+        list-style-type: none;
+        margin: 0;
+        justify-content: space-between;
+        text-decoration: none;
+        color: white;
+    }
+
     a{
         text-decoration: none;
+        color: white;
     }
 
     .drop-down-content {
         display:none;
         position: absolute;
-        padding-left:0;
-        z-index: 1;
+        padding-left:20;
+        padding: 0px;
+        width: fit-content;
+        background-color:#7272dd;
+        border-bottom-right-radius: 65px;
     }
 
+    li:hover .drop-down-content{
+        display: block;
+    }
 
- .drop-down:hover .drop-down-content{
-        display: block !important; 
-    }   
-
-.horizontal-list2 {
-    display: flex;
-    padding: 0;
-    list-style-type: none;
-    margin: 0;
-    justify-content: space-between;
-    text-decoration: none;
-    color: white;
 }
 
 header {
@@ -130,12 +136,17 @@ section {
 
 h1 {
     margin: 0 auto;
+    color: white;
 }
 
 header {
     width: 1920px;
     height: 420px;
     padding: 75px;
+    background-color: black;
+    p{
+    color: white;
+    }
 }
 
 

@@ -96,6 +96,9 @@ nav {
         width: fit-content;
         background-color:#7272dd;
         border-bottom-right-radius: 65px;
+        a:hover{
+         color: black;
+        }
     }
 
     li:hover .drop-down-content{
